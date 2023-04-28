@@ -301,5 +301,16 @@ a{
     font-size: 1.6rem;
     color: var(--main-color);
 }
-
 /* PRODUCT FINISH */
+
+/* ABOUT START */
+.about .row .image{
+    flex: 1 1 45rem;
+}
+
+.about .row img{
+    width: 100%;
+}
+
+/* ABOUT FINISH */
+
