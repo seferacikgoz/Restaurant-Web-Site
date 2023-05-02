@@ -544,6 +544,32 @@ a{
 
 .footer .links a{
     background-color: var(--main-color);
+    padding: 0.7rem 2rem;
+    color: #fff;
+    font-size: 2rem;
+    border: var(--border);
 }
+
+.footer .links a:hover{
+    background-color: var(--black-color);
+    opacity: 0.7;
+    border: var(--border);
+}
+
+.footer .links a.active{
+    background-color: var(--black-color);
+}
+
+.footer .credit{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 300;
+    padding-top: 1.5rem;
+}
+
+.footer .credit span{
+    color: var(--main-color);
+}
+
 /* FOOTER FINISH */
 
